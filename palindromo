@@ -18,5 +18,5 @@ if(string[i]==auxiliar[i]){
 else{
 	printf("Lamento, sua string nao eh um palindromo\n");
 }
-
+return 0;
 }
