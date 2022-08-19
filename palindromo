@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+int main(){
+int i, b=-1;
+char string[100], auxiliar[100];
+printf("Insira uma string: \n");
+gets(string);
+for(i=0; string[i]!='\0'; i++){
+	b++;
+}
+for(i=0; string[b]!='\0'; i++){
+	auxiliar[b]=string[i];
+	b--;
+}
+if(string[i]==auxiliar[i]){
+	printf("Eh um palindromo\n"); 
+}
+else{
+	printf("Lamento, sua string nao eh um palindromo\n");
+}
+
+}
